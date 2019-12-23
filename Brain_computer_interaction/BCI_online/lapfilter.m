@@ -1,0 +1,19 @@
+function lapeeg = lapfilter(eeg)
+    lapeeg = eeg;
+    lapeeg(:,1) = eeg(:,1) - eeg(:,4);
+    lapeeg(:,2) = eeg(:,2) - 0.5*(eeg(:,3) + eeg(:,7));
+    lapeeg(:,3) = eeg(:,3) - 1/3*(eeg(:,2) + eeg(:,4) + eeg(:,8));
+    lapeeg(:,4) = eeg(:,4) - 0.25*(eeg(:,3) + eeg(:,5) + eeg(:,1) + eeg(:,9));
+    lapeeg(:,5) = eeg(:,5) - 1/3*(eeg(:,4) + eeg(:,6) + eeg(:,10));
+    lapeeg(:,6) = eeg(:,6) - 0.5*(eeg(:,5) + eeg(:,11));
+    lapeeg(:,7) = eeg(:,7) - 1/3*(eeg(:,2) + eeg(:,12) + eeg(:,8));
+    lapeeg(:,8) = eeg(:,8) - 0.25*(eeg(:,7) + eeg(:,9) + eeg(:,3) + eeg(:,13));
+    lapeeg(:,9) = eeg(:,9) - 0.25*(eeg(:,8) + eeg(:,10) + eeg(:,14) + eeg(:,4));
+    lapeeg(:,10) = eeg(:,10) - 0.25*(eeg(:,9) + eeg(:,11) + eeg(:,5) + eeg(:,15));
+    lapeeg(:,11) = eeg(:,11) - 1/3*(eeg(:,10) + eeg(:,6) + eeg(:,16));
+    lapeeg(:,12) = eeg(:,12) - 0.5*(eeg(:,13) + eeg(:,7));
+    lapeeg(:,13) = eeg(:,13) - 1/3*(eeg(:,12) + eeg(:,14) + eeg(:,8));
+    lapeeg(:,14) = eeg(:,14) - 1/3*(eeg(:,13) + eeg(:,15) + eeg(:,9));
+    lapeeg(:,15) = eeg(:,15) - 1/3*(eeg(:,14) + eeg(:,16) + eeg(:,10));
+    lapeeg(:,16) = eeg(:,16) - 0.5*(eeg(:,15) + eeg(:,11));
+end
