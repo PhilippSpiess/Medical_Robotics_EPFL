@@ -8,4 +8,10 @@ In a group of four students, we recorded our own electroencephalogram (EEG) data
 
 ## Fundamentals of Neuroengineering
 
+- Arm motion prediction using Multiunit recordings
+- Modelling Electrical Stimulation of the Nervous System
+- Electroneurographic (ENG) afferents signals signal processing
+
 ## Sensorymotor neuroprosthetics
+
+In this work, we present a novel device that aims at reducing nicotine addiction through neuromodulation. The proposed device presented forth uses a combination of activation of the PFC and suppression of the insular cortex, using Low- Intensity Focused Ultrasound (LIFU) integrated in a minimaly-invasive device.
