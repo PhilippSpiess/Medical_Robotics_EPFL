@@ -1,4 +1,6 @@
-# Medical robotic projects I have been working on during my Master's at EPFL
+# Medical robotics
+
+Medical robotic projects I have been working on during my Master's at EPFL
 
 ## Flexible Bioelectronics
 In a group of four, we designed a "Silent Speech Interface" which could potentially help people who lost the ability to talk because of laryngectomy to express themselves using the detection of their cheek muscles with a soft, transparent and confortable device. The scope of this project was purely theoretical and involved literature understanding and a discussion around the manufacturing, the electronics, the materials, the biocompatibility, the flexibility and the functionality of the designed device.
