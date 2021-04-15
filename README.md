@@ -1,6 +1,6 @@
 # Medical robotics
 
-Medical robotic projects I have been working on during my Master's at EPFL
+Below are the medical robotic projects I have been working on during my Master at EPFL.
 
 ## Brain-computer Interaction
 In a team of four, we recorded our own electroencephalogram (EEG) data and designed a classifier to detect specific brain signals (error-related potentials). For example, ErrPs can be used as negative rewards in a reinforcement learning planning algorithm for the shared control of the wheelchairs for paraplegic people.
