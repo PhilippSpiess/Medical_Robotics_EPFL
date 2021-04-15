@@ -3,7 +3,7 @@
 Medical robotic projects I have been working on during my Master's at EPFL
 
 ## Brain-computer Interaction
-In a group of four, we recorded our own electroencephalogram (EEG) data and designed a classifier to detect specific brain signals (error-related potentials). For example, ErrPs can be used as negative rewards in a reinforcement learning planning algorithm for the shared control of the wheelchairs for paraplegic people.
+In a team of four, we recorded our own electroencephalogram (EEG) data and designed a classifier to detect specific brain signals (error-related potentials). For example, ErrPs can be used as negative rewards in a reinforcement learning planning algorithm for the shared control of the wheelchairs for paraplegic people.
 
 The data engineering pipeline (in Matlab) involved a spectral filter, a spatial filter, a canonical component analysis, a principal component analysis, and a sliding window so that the system can decode in real-time. We achieved a MCC classification score of 0.89.
 
