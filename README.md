@@ -1,6 +1,6 @@
 # Medical robotics
 
-Below are the medical robotic projects I have been working on during my Master at EPFL.
+Medical robotic projects I have been working on during my Master at EPFL.
 
 ## Brain-computer Interaction
 In a team of four, we recorded our own electroencephalogram (EEG) data and designed a classifier to detect specific brain signals (error-related potentials). For example, ErrPs can be used as negative rewards in a reinforcement learning planning algorithm for the shared control of the wheelchairs for paraplegic people.
@@ -16,6 +16,6 @@ In a group of four, we designed a "Silent Speech Interface" which could potentia
 - Modelling Electrical Stimulation of the Nervous System
 - Electroneurographic (ENG) afferents signals signal processing
 
-## Sensorymotor neuroprosthetics
+## Sensorymotor Neuroprosthetics
 
 In this work, we present a novel device that aims at reducing nicotine addiction through neuromodulation. The proposed device presented forth uses a combination of activation of the PFC and suppression of the insular cortex, using Low- Intensity Focused Ultrasound (LIFU) integrated in a minimaly-invasive device.
